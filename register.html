@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Daftar | videobelajar</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+	<main class="auth-shell">
+		<a class="logo auth-brand" href="index.html">
+			<span class="logo-mark">▶</span>videobelajar
+		</a>
+		<h1>Buat akun baru</h1>
+		<p class="auth-intro">Mulai belajar dan kembangkan potensimu bersama kami.</p>
+		<form action="index.html">
+			<div class="form-group">
+				<label for="register-name">Nama</label>
+				<input id="register-name" name="name" type="text" placeholder="Nama lengkap" required>
+			</div>
+			<div class="form-group">
+				<label for="register-email">E-mail</label>
+				<input id="register-email" name="email" type="email" placeholder="nama@email.com" required>
+			</div>
+			<div class="form-group">
+				<label for="register-phone">Nomor HP</label>
+				<input id="register-phone" name="phone" type="tel" placeholder="08xxxxxxxxxx" required>
+			</div>
+			<div class="form-group">
+				<label for="register-password">Kata Sandi</label>
+				<input id="register-password" name="password" type="password" placeholder="Minimal 8 karakter" required>
+			</div>
+			<div class="form-group">
+				<label for="register-confirm">Konfirmasi Kata Sandi</label>
+				<input id="register-confirm" name="confirm-password" type="password" placeholder="Ulangi kata sandi" required>
+			</div>
+			<div class="form-row">
+				<span></span>
+				<a class="text-link accent" href="#">Lupa Password?</a>
+			</div>
+			<button class="btn btn-primary btn-full" type="submit">Daftar</button>
+		</form>
+		<div class="auth-divider">atau</div>
+		<a class="btn btn-ghost btn-full" href="index.html">
+			<span class="google-mark">G</span> Daftar dengan Google
+		</a>
+		<p class="auth-switch">Sudah punya akun? <a class="text-link accent" href="login.html">Masuk di sini</a></p>
+	</main>
+</body>
+</html>
